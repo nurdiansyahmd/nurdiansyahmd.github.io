@@ -1,0 +1,66 @@
+
+/* End screen phone */
+  .carousel-item {
+    height: 40rem;
+  }
+
+  .carousel-caption{
+    z-index: 99;
+    text-align: left;
+    top: 140px;
+    left: 15%;
+  }
+
+  .carousel-indicators{
+      position: absolute;
+  }
+
+  .first{
+    background: rgb(249, 243, 235);
+    /* height: auto; */
+  }
+  .second{
+    background: rgb(233, 240, 243)
+  }
+  .third{
+    background: rgb(241, 237, 238)
+  }
+  @media screen and (max-width: 600px) {
+    .first{
+      background: rgb(249, 243, 235)
+    }
+    .second{
+      background: rgb(233, 240, 243)
+    }
+    .third{
+      background: rgb(241, 237, 238)
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .carousel-caption{
+      z-index: 99;
+      text-align: left;
+      top: 15%;
+      left: 15%;
+    }
+    .carousel-item {
+      /* height: 50rem; */
+      top: 0;
+      
+  }
+    .carousel-inner {
+      height: 38rem;
+    }
+    .carousel-control-prev,.carousel-control-next{
+      margin-bottom: 30%;
+      display: none;
+    }
+    .carousel-indicators{
+      top: 85%;
+    }
+    
+  }
+  
+  
+  

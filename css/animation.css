@@ -1,0 +1,194 @@
+/* Animation Slide 1 */
+
+/* bottom */
+.w3-animate-bottom-1{
+    position:relative;
+    animation:animatebottom 1.5s
+}
+    @keyframes animatebottom{
+        from{
+            bottom:-300px;opacity:0
+        }to{
+            bottom:0;opacity:1
+        }
+}
+.w3-animate-bottom-2{
+    position:relative;
+    animation:animatebottom 2s
+}
+    @keyframes animatebottom{
+        from{
+            bottom:-300px;opacity:0
+        }to{
+            bottom:0;opacity:1
+        }
+}
+.w3-animate-bottom-3{
+    position:relative;
+    animation:animatebottom 2.5s
+}
+    @keyframes animatebottom{
+        from{
+            bottom:-300px;opacity:0
+        }to{
+            bottom:0;opacity:1
+        }
+}
+
+/* Fade */
+.w3-animate-opacity{
+    animation:opac 0.8s
+}
+@keyframes opac
+{
+    from{
+        opacity:0
+    } to{
+        opacity:1
+    }
+}
+.w3-animate-opacity-s-1-1{
+    animation-name: opac;
+    animation-duration: 1s;  
+}
+@keyframes opac
+{
+    from{
+        opacity:0
+    } to{
+        opacity:1
+    }
+}
+
+
+/* zoom */
+.w3-animate-zoom-s-1 {
+    animation:animatezoom 1s;
+    text-align: center;
+    float: left;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+@keyframes animatezoom{
+    from{
+        transform:scale(0)
+    } to{
+        transform:scale(1)
+    }
+}
+
+.w3-animate-zoom-1-1 {
+    animation:animatezoom 1s;
+    position: absolute;
+    right: 39.5%;
+    top: 75%;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+@keyframes animatezoom{
+    from{
+        transform:scale(0)
+    } to{
+        transform:scale(1)
+    }
+}
+
+/* Animation Slide 2 */
+
+/* right */
+.w3-animate-right{
+    position:relative;
+    animation:animateright 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+@keyframes animateright{
+    from{
+        right:-50px;opacity:0
+    } to{
+        right:0;opacity:1
+    }
+}
+
+/* bottom */
+.w3-animate-bottom-s-2-1{
+    position:relative;
+    animation:animatebottom 0.4s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+    @keyframes animatebottom{
+        from{
+            bottom:-100px;opacity:0
+        } to{
+            bottom:0;opacity:1
+        }
+    }
+
+.w3-animate-top-s-3-2-2{
+    position:relative;
+    animation:animatetop 0.4s;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+}@keyframes animatetop{
+    from{top:-300px;opacity:0
+    } to{
+        top:0;
+        opacity:1
+    }
+}
+
+/* Animation slide 3 */
+.w3-animate-top-s-3-1{
+    position:relative;
+    animation:animatetop-s-3-1 0.4s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+@keyframes animatetop-s-3-1{
+    from{
+        top:-50px;opacity:0
+    } to{
+        top:0;opacity:1
+    }
+}
+.w3-animate-top-s-3-2{
+    position:relative;
+    animation:animatetop-s-3-1 0.4s;
+    animation-delay: 1.8s;
+    animation-fill-mode: backwards;
+}
+@keyframes animatetop-s-3-1{
+    from{
+        top:-50px;opacity:0
+    } to{
+        top:0;opacity:1
+    }
+}
+.w3-animate-bottom-s-3-1-1{
+    position:relative;
+    animation:animatebottom1 0.4s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+    @keyframes animatebottom1{
+        from{
+            bottom:-100px;opacity:0
+        } to{
+            bottom:0;opacity:1
+        }
+}
+
+.w3-animate-top-s-3-1-2{
+    position: absolute;;
+    animation:animatetop-s-3-1-2 0.4s;
+    animation-delay: 1.3s;
+    animation-fill-mode: backwards;
+}
+@keyframes animatetop-s-3-1-2{
+    from{
+        top:-50px;opacity:0
+    } to{
+        top:0;opacity:1
+    }
+}

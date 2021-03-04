@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "The Gwathmey";
+    src: url('font/TheGwathmey.ttf');
+}
+@font-face {
+    font-family: "Augereau Italic";
+    src: url('font/Augereau Italic.otf');
+}
+@font-face {
+    font-family: "JosefinSans";
+    src: url('font/JosefinSans.ttf');
+}
+@media screen and (max-width: 600px) {
+    .flex-wrap {
+        display: none;
+    }
+
+    .swiper-container {
+        display: none;
+    }
+    
+    .h-img {
+        display: none;
+    }
+    .h-img2 {
+        display: none;
+    }
+    .h-img-s-3-1 {
+        display: none;
+    }
+    .h-img-s-3-2 {
+        display: none;
+    }
+
+    .h-img1-2 {
+        display: none;
+    } 
+}
