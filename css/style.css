@@ -328,6 +328,13 @@ span{
     position: absolute;
     margin-bottom: 100%;
 }
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(219, 219, 219);
+    text-align: center;
+}
 @media screen and (max-width: 600px) {
     .sec-col-1{
         width: 70%;
