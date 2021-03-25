@@ -1,5 +1,5 @@
 # Nelson - Furniture
-this template using bootstrap 5
+This template using bootstrap 5
  
 # Basic Usage
 
