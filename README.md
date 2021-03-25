@@ -1,5 +1,7 @@
 # Nelson - Furniture
 This template using bootstrap 5
+
+![Screenshot_2](https://user-images.githubusercontent.com/18554967/112439704-08ead180-8d7c-11eb-8039-58258a143760.png)
  
 ## Basic Usage
 
